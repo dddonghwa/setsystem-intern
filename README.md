@@ -1,6 +1,7 @@
 # 딥러닝 기반 선박 및 파랑 탐지
 
 - 참고 자료 : 한요섭님 [github](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet) 및 [Youtube : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
+- 회사 보안 상 데이터셋은 업로드X
 
 ## 목표
 RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐지
