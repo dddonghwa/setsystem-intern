@@ -1,6 +1,7 @@
-# 파랑 탐지를 위한 U-Net 
+# 딥러닝 기반 선박 및 파랑 탐지
 
 - 참고 자료 : 한요섭님 [github](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet) 및 [Youtube : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
+
 ## 목표
 RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐지
 <img width="714" alt="Compact HF Surface Wave Radar Data Generating Simulator for Ship Detection and Tracking" src="https://github.com/dddonghwa/setsystem-intern/blob/main/image/image1.png">
