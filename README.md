@@ -1,9 +1,10 @@
 # 파랑 탐지를 위한 U-Net 
 
-### 참고 자료
-- 한요섭님 [깃허브](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet), [유투브 : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
+- 참고 자료 : 한요섭님 [github](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet) 및 [Youtube : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
+
 
 ## 폴더 설명
+### unet 폴더
 1. datasets/ 
 CSQ 데이터셋 포함한 폴더
 - train : 훈련 데이터 (100개 * json,png 2개씩 = 200개)
@@ -21,7 +22,7 @@ CSQ 데이터셋 전처리를 위한 폴더
 	- label/ : 라벨링된 json 파일을 픽셀 단위로 레이블링한 후 npy 파일로 저장한 데이터
 	- visual/ : 시각화 자료
 	- class_names.txt : json 파일에 레이블링된 클래스 종류 및 할당 숫자
-- labelme2voc.py : json2npy.py의 원본 [github 출처](https://github.com/wkentaro/labelme/tree/main/examples/instance_segmentation/labelme2voc.py)
+- labelme2voc.py : json2npy.py의 원본 (출처 : [github](https://github.com/wkentaro/labelme/tree/main/examples/instance_segmentation/labelme2voc.py))
 - labels.txt : json 파일에 레이블링된 클래스 이름, 직접 수정 필요
 
 
@@ -51,9 +52,8 @@ combined.png, Detectron2.png, U-Net.png을 생성하기 위해서 모델의 test
 - dataset.py 훈련을 위한 데이터로더(dataloader), 트랜스폼(transform) 정의하는 코드
 - data_read.py :  U-Net 실습 중 tiff로 되어있던 이미지를 전처리하는 코드
 
-
-
-### Detectron2 폴더 사용한 내용만
+### Detectron2 폴더 
+(사용한 내용만)
 * 폴더 위치 : /home/set-spica/Desktop/test_jh/jihye
 
 1. HFradar Segmentation /
@@ -64,7 +64,6 @@ combined.png, Detectron2.png, U-Net.png을 생성하기 위해서 모델의 test
 	- train : 훈련 데이터 133개*png,json 2개씩 = 266개
 	- test : 테스트 데이터 22개*2 = 44개
 	
-
 2. output /
 모델 학습 결과 저장
 
