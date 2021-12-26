@@ -1,0 +1,5 @@
+https://gilberttanner.com/blog/detectron2-train-a-instance-segmentation-model
+
+
+save yaml data
+https://gilberttanner.com/blog/detectron-2-object-detection-with-pytorch
