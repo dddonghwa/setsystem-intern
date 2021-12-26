@@ -9,10 +9,12 @@ RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐�
 
 (출처 : "Compact HF Surface Wave Radar Data Generating Simulator for Ship Detection and Tracking" [Google Scholar](https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=Compact+HF+Surface+Wave+Radar+Data+Generating+Simulator+for+Ship+Detection+and+Tracking&btnG=))
 - 기존의 접근법 : Detectron2의 Mask R-CNN을 transfer learning 시킨 모델 구현 및 적용
-- 향후 개선 사항 : 1) 최신 모델 적용을 통한 선박 탐지 성능 (정확도, 속도) 개선 2) 실시간 탐지 가능성 확인
-- 적용 가능 task : __객체 탐지__(Object Detection), __이미지/의미론적 분할__(Image Segmentation)
-	- 객체 탐지 : 물체가 어떤 분류에 속하고, 이미지 상에 어디에 위치하는지 박스형 경계로 예측
-	- 이미지/의미론적 분할 : 픽셀 단위의 분류
+- 목표 : 
+1) 최신 모델 적용을 통한 선박 탐지 성능 (정확도, 속도) 개선 
+2) 실시간 탐지 가능성 확인
+- 적용 가능 task 
+1) __객체 탐지__(Object Detection) : 물체가 어떤 분류에 속하고, 이미지 상에 어디에 위치하는지 박스형 경계로 예측
+2) __이미지/의미론적 분할__(Image Segmentation) : 픽셀 단위의 분류
 
 ## 객체 탐지 vs 이미지 분할
 <img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image2.png' width='80%'>
@@ -32,6 +34,6 @@ RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐�
 - tensorflow 공식 github에 나온 deeplabv3+ 소스코드 : tensorflow 버전 1.X를 기반으로 하기 때문에 현재의 버전 2.X과 충돌
 
 
-## Detectron2 vs U-Net 결과 비교
+## Detectron2 vs U-Net 구현 결과 비교
 <img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image6.png' width='80%'>
 
