@@ -16,7 +16,7 @@ CSQ 데이터셋 전처리를 위한 폴더
 	- label/ : 라벨링된 json 파일을 픽셀 단위로 레이블링한 후 npy 파일로 저장한 데이터
 	- visual/ : 시각화 자료
 	- class_names.txt : json 파일에 레이블링된 클래스 종류 및 할당 숫자
-- labelme2voc.py : json2npy.py의 원본 [github 출처](https://github.com/wkentaro/labelme/tree/main/examples/instance_segmentation/labelme2voc.py)
+- labelme2voc.py : json2npy.py의 원본 (출처 : [github](https://github.com/wkentaro/labelme/tree/main/examples/instance_segmentation/labelme2voc.py))
 - labels.txt : json 파일에 레이블링된 클래스 이름, 직접 수정 필요
 
 
