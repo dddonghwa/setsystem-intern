@@ -3,7 +3,7 @@
 - 참고 자료 : 한요섭님 [github](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet) 및 [Youtube : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
 ## 목표
 RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐지
-<img width="714" alt="스크린샷 2021-12-27 오전 3 14 42" src="https://user-images.githubusercontent.com/38090151/147416718-44eb2616-e76c-4162-9bba-5b22071e310e.png">
+<img width="714" alt="Compact HF Surface Wave Radar Data Generating Simulator for Ship Detection and Tracking" src="https://github.com/dddonghwa/setsystem-intern/blob/main/image/image1.png">
 
 (출처 : "Compact HF Surface Wave Radar Data Generating Simulator for Ship Detection and Tracking" [Google Scholar](https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=Compact+HF+Surface+Wave+Radar+Data+Generating+Simulator+for+Ship+Detection+and+Tracking&btnG=))
 - 기존의 접근법 : Detectron2의 Mask R-CNN을 transfer learning 시킨 모델 구현 및 적용
@@ -13,20 +13,20 @@ RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐�
 	- 이미지/의미론적 분할 : 픽셀 단위의 분류
 
 ## 객체 탐지 vs 이미지 분할
-<img src='https://user-images.githubusercontent.com/38090151/147416950-204ca3b5-5410-4a6a-b285-147fe3e7ee42.png' width='80%'>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image2.png' width='80%'>
 
 ## 적용 가능 모델
 1. 객체 탐지
-<img src='https://user-images.githubusercontent.com/38090151/147417013-771a6b76-45ef-4bc1-8c22-4d1e58dd911b.png'>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image3.png'>
 
 2. 이미지 분할
-<img src='https://user-images.githubusercontent.com/38090151/147417014-d8d15556-8a1b-4236-95cb-6365ad6fba49.png' height=150>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image4.png' height=150>
 
 ## Detectron2 vs DeepLabv3+ vs U-Net 비교
-<img src='https://user-images.githubusercontent.com/38090151/147417094-fd6ff0e0-38f7-4e9c-82ff-2ea6c7661927.png' width='80%'>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image5.png' width='80%'>
 
 ## Detectron2 vs U-Net 결과 비교
-<img src='https://user-images.githubusercontent.com/38090151/147417155-347af686-5b7d-43e4-bbad-cd99304c0b0f.png' width='80%'>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image6.png' width='80%'>
 
 
 ## 폴더 설명
