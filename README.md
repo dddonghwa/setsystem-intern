@@ -1,4 +1,4 @@
-# U-Net
+# U-Net 기반 파랑  
 
 ### 참고 자료
 - 한요섭님 [깃허브](https://github.com/hanyoseob/youtube-cnn-002-pytorch-unet), [유투브 : U-Net 실습](https://www.youtube.com/watch?v=sSxdQq9CCx0)
