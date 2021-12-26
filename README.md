@@ -25,6 +25,11 @@ RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐�
 ## Detectron2 vs DeepLabv3+ vs U-Net 비교
 <img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image5.png' width='80%'>
 
+## DeepLabv3+ 실패 원인
+- Detectron2에서 구현 가능할 것으로 예상했지만 Detectron2의 메인 수행 모델이 아니고 서브 프로젝트에서 개발하고 있는 모델이라서 사용자화시켜서 구현하기엔 정보의 한계가 있었음 
+- tensorflow 공식 github에 나온 deeplabv3+ 소스코드 : tensorflow 버전 1.X를 기반으로 하기 때문에 현재의 버전 2.X과 충돌
+
+
 ## Detectron2 vs U-Net 결과 비교
 <img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image6.png' width='80%'>
 
