@@ -17,10 +17,10 @@ RDM(Range Doppler Map) 상에서 선박 및 파랑(브래그 신호 영역) 탐�
 
 ## 적용 가능 모델
 1. 객체 탐지
-<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image3.png'>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image4.png'>
 
 2. 이미지 분할
-<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image4.png' height=150>
+<img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image3.png' height=150>
 
 ## Detectron2 vs DeepLabv3+ vs U-Net 비교
 <img src='https://github.com/dddonghwa/setsystem-intern/blob/main/image/image5.png' width='80%'>
